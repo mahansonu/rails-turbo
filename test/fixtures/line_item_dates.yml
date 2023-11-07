@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+today:
+  quote: first
+  date: <%= Date.current %>
+
+next_week:
+  quote: second
+  date: <%= Date.current + 1.week %>
